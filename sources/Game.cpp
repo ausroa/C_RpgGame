@@ -2,7 +2,7 @@
 // Created by ausro on 7/12/2018.
 //
 
-#include "Game.h"
+#include "../headers/Game.h"
 
 Game::Game() {
     playing = true;
@@ -79,6 +79,7 @@ bool Game::isPlaying() {
         default:
             break;
     }
+    return playing;
 }
 
 

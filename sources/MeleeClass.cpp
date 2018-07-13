@@ -1,11 +1,10 @@
 //
 // Created by ausro on 7/12/2018.
 //
-
-#include "MagicClass.h"
 #include <math.h>
+#include "../headers/MeleeClass.h"
 
-MagicClass::MagicClass() {
+MeleeClass::MeleeClass() {
     this -> name = "";
     this -> healthMin = 0;
     this -> healthMax = 0;
@@ -19,14 +18,13 @@ MagicClass::MagicClass() {
     this -> exp = 0;
     this -> expNext = 0;
     this -> selected = false;
+}
+
+MeleeClass::~MeleeClass() {
 
 }
 
-MagicClass::~MagicClass() {
-
-}
-
-void MagicClass::Initialize(std::string name) {
+void MeleeClass::Initialize(std::string name) {
     this -> name = name;
     this -> healthMin = 10;
     this -> healthMax = 100;
@@ -40,14 +38,14 @@ void MagicClass::Initialize(std::string name) {
     this -> exp = 0;
     this -> expNext =
             static_cast<int>(50/3) * (pow(level, 3)) -
-                    6 * (pow(level, 2)) +
-                    ((17 * level - 12));
+            6 * (pow(level, 2)) +
+            ((17 * level - 12));
     this -> selected = true;
 }
 
-void MagicClass::PrintStats() {
+void MeleeClass::PrintStats() {
     std::cout << "===========STATS===========" << std::endl;
-    std::cout << "      = Magic Class =" << std::endl;
+    std::cout << "      = Melee Class =" << std::endl;
     std::cout << "= Name: " << this -> name << std::endl;
     std::cout << "= Level: " << this -> level << std::endl;
     std::cout << "= Exp to next level: " << this -> expNext << std::endl;
@@ -58,7 +56,3 @@ void MagicClass::PrintStats() {
     std::cout << "= Mana: " << this -> manaMin << " - " << manaMax << std::endl;
     std::cout << std::endl;
 }
-
-
-
-
