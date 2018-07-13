@@ -20,14 +20,19 @@ public:
     void Intro();
     void SelectClass();
     void MainMenu();
+    bool isPlaying();
 
     // Accessors
     std::string GetClass(){ return characterClass;};
+    bool GetPlaying() { return playing; };
+    int GetPlayerChoice() { return playerChoice; };
 
     // Modifiers
 
 private:
     std::string characterClass;
+    int playerChoice;
+    bool playing;
 };
 
 
