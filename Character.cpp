@@ -22,16 +22,17 @@ Character::Character() {
     level = 1;
     exp = 0;
     */
+
 }
 
 Character::~Character() {
 
 }
-
+/*
 void Character::isSelected(std::string playerClass) {
 
 }
-/*
+
 void Character::Initialize(std::string name, std::string playerClass) {
     this -> name = name;
     this -> playerClass = playerClass;

@@ -3,6 +3,7 @@
 //
 
 #include "RangedClass.h"
+#include <math.h>
 
 RangedClass::RangedClass() {
     this -> name = "";
@@ -16,6 +17,7 @@ RangedClass::RangedClass() {
     this -> manaMax = 0;
     this -> level = 0;
     this -> exp = 0;
+    this -> expNext = 0;
     this -> selected = false;
 }
 
@@ -35,6 +37,10 @@ void RangedClass::Initialize(std::string name) {
     this -> manaMax = 100;
     this -> level = 1;
     this -> exp = 0;
+    this -> expNext =
+            static_cast<int>(50/3) * (pow(level, 3)) -
+            6 * (pow(level, 2)) +
+            ((17 * level - 12));
     this -> selected = true;
 }
 
@@ -43,6 +49,7 @@ void RangedClass::PrintStats() {
     std::cout << "      = Ranged Class =" << std::endl;
     std::cout << "= Name: " << this -> name << std::endl;
     std::cout << "= Level: " << this -> level << std::endl;
+    std::cout << "= Exp to next level: " << this -> expNext << std::endl;
     std::cout << "= Exp: " << this -> exp << std::endl;
     std::cout << "= Health: " << this -> healthMin << " - " << healthMax << std::endl;
     std::cout << "= Stamina: " << this -> staminaMin << " - " << staminaMax << std::endl;

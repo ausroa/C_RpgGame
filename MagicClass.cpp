@@ -50,6 +50,7 @@ void MagicClass::PrintStats() {
     std::cout << "      = Magic Class =" << std::endl;
     std::cout << "= Name: " << this -> name << std::endl;
     std::cout << "= Level: " << this -> level << std::endl;
+    std::cout << "= Exp to next level: " << this -> expNext << std::endl;
     std::cout << "= Exp: " << this -> exp << std::endl;
     std::cout << "= Health: " << this -> healthMin << " - " << healthMax << std::endl;
     std::cout << "= Stamina: " << this -> staminaMin << " - " << staminaMax << std::endl;

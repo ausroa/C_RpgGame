@@ -1,7 +1,7 @@
 //
 // Created by ausro on 7/12/2018.
 //
-
+#include <math.h>
 #include "MeleeClass.h"
 
 MeleeClass::MeleeClass() {
@@ -16,6 +16,7 @@ MeleeClass::MeleeClass() {
     this -> manaMax = 0;
     this -> level = 0;
     this -> exp = 0;
+    this -> expNext = 0;
     this -> selected = false;
 }
 
@@ -35,6 +36,10 @@ void MeleeClass::Initialize(std::string name) {
     this -> manaMax = 200;
     this -> level = 1;
     this -> exp = 0;
+    this -> expNext =
+            static_cast<int>(50/3) * (pow(level, 3)) -
+            6 * (pow(level, 2)) +
+            ((17 * level - 12));
     this -> selected = true;
 }
 
@@ -43,6 +48,7 @@ void MeleeClass::PrintStats() {
     std::cout << "      = Melee Class =" << std::endl;
     std::cout << "= Name: " << this -> name << std::endl;
     std::cout << "= Level: " << this -> level << std::endl;
+    std::cout << "= Exp to next level: " << this -> expNext << std::endl;
     std::cout << "= Exp: " << this -> exp << std::endl;
     std::cout << "= Health: " << this -> healthMin << " - " << healthMax << std::endl;
     std::cout << "= Stamina: " << this -> staminaMin << " - " << staminaMax << std::endl;

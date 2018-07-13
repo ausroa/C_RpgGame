@@ -55,6 +55,8 @@ Game.h
 C:/Users/ausro/Documents/GitHub/C_RpgGame/Game.h
 
 C:/Users/ausro/Documents/GitHub/C_RpgGame/MeleeClass.cpp
+math.h
+-
 MeleeClass.h
 C:/Users/ausro/Documents/GitHub/C_RpgGame/MeleeClass.h
 
@@ -67,6 +69,8 @@ C:/Users/ausro/Documents/GitHub/C_RpgGame/Character.h
 C:/Users/ausro/Documents/GitHub/C_RpgGame/RangedClass.cpp
 RangedClass.h
 C:/Users/ausro/Documents/GitHub/C_RpgGame/RangedClass.h
+math.h
+-
 
 C:/Users/ausro/Documents/GitHub/C_RpgGame/RangedClass.h
 iostream
