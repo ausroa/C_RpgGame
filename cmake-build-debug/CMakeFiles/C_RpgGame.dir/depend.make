@@ -8,6 +8,8 @@ CMakeFiles/C_RpgGame.dir/Game.cpp.obj: ../Character.h
 CMakeFiles/C_RpgGame.dir/Game.cpp.obj: ../Game.cpp
 CMakeFiles/C_RpgGame.dir/Game.cpp.obj: ../Game.h
 CMakeFiles/C_RpgGame.dir/Game.cpp.obj: ../MagicClass.h
+CMakeFiles/C_RpgGame.dir/Game.cpp.obj: ../MeleeClass.h
+CMakeFiles/C_RpgGame.dir/Game.cpp.obj: ../RangedClass.h
 
 CMakeFiles/C_RpgGame.dir/MagicClass.cpp.obj: ../Character.h
 CMakeFiles/C_RpgGame.dir/MagicClass.cpp.obj: ../MagicClass.cpp
@@ -17,10 +19,14 @@ CMakeFiles/C_RpgGame.dir/Main.cpp.obj: ../Character.h
 CMakeFiles/C_RpgGame.dir/Main.cpp.obj: ../Game.h
 CMakeFiles/C_RpgGame.dir/Main.cpp.obj: ../MagicClass.h
 CMakeFiles/C_RpgGame.dir/Main.cpp.obj: ../Main.cpp
+CMakeFiles/C_RpgGame.dir/Main.cpp.obj: ../MeleeClass.h
+CMakeFiles/C_RpgGame.dir/Main.cpp.obj: ../RangedClass.h
 
+CMakeFiles/C_RpgGame.dir/MeleeClass.cpp.obj: ../Character.h
 CMakeFiles/C_RpgGame.dir/MeleeClass.cpp.obj: ../MeleeClass.cpp
 CMakeFiles/C_RpgGame.dir/MeleeClass.cpp.obj: ../MeleeClass.h
 
+CMakeFiles/C_RpgGame.dir/RangedClass.cpp.obj: ../Character.h
 CMakeFiles/C_RpgGame.dir/RangedClass.cpp.obj: ../RangedClass.cpp
 CMakeFiles/C_RpgGame.dir/RangedClass.cpp.obj: ../RangedClass.h
 

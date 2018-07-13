@@ -29,6 +29,10 @@ Character.h
 C:/Users/ausro/Documents/GitHub/C_RpgGame/Character.h
 MagicClass.h
 C:/Users/ausro/Documents/GitHub/C_RpgGame/MagicClass.h
+RangedClass.h
+C:/Users/ausro/Documents/GitHub/C_RpgGame/RangedClass.h
+MeleeClass.h
+C:/Users/ausro/Documents/GitHub/C_RpgGame/MeleeClass.h
 
 C:/Users/ausro/Documents/GitHub/C_RpgGame/MagicClass.cpp
 MagicClass.h
@@ -51,10 +55,18 @@ MeleeClass.h
 C:/Users/ausro/Documents/GitHub/C_RpgGame/MeleeClass.h
 
 C:/Users/ausro/Documents/GitHub/C_RpgGame/MeleeClass.h
+iostream
+-
+Character.h
+C:/Users/ausro/Documents/GitHub/C_RpgGame/Character.h
 
 C:/Users/ausro/Documents/GitHub/C_RpgGame/RangedClass.cpp
 RangedClass.h
 C:/Users/ausro/Documents/GitHub/C_RpgGame/RangedClass.h
 
 C:/Users/ausro/Documents/GitHub/C_RpgGame/RangedClass.h
+iostream
+-
+Character.h
+C:/Users/ausro/Documents/GitHub/C_RpgGame/Character.h
 

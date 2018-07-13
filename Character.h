@@ -16,8 +16,8 @@ public:
     ~Character();
 
     // Functions
-    void Initialize(std::string name, std::string playerClass);
-
+    // void Initialize(std::string name, std::string playerClass);
+    void isSelected(std::string playerClass);
     // Accessors
     int GetHealthMin() { return healthMin; };
     int GetHealthMax() { return healthMax; };
@@ -29,13 +29,14 @@ public:
     int GetManaMax() { return manaMax; };
     int GetLevel() { return level; };
     int GetExp() { return level; };
+    bool IsSelected() { return selected; };
 
     // Modifiers
 
 
 protected:
     std::string name;
-    std::string playerClass;
+    bool selected;
     int healthMin;
     int healthMax;
     int staminaMin;

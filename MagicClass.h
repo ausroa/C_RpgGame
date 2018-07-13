@@ -9,24 +9,24 @@
 #include "Character.h"
 
 
-class MagicClass: public Character{
+
+class MagicClass: public Character {
 
 public:
     MagicClass();
     ~MagicClass();
 
     // Functions
-
-
+    void Initialize(std::string name);
+    void PrintStats();
     // Accessors
-
 
     // Modifiers
 
 
 private:
 
-
+    // Character Related
 };
 
 

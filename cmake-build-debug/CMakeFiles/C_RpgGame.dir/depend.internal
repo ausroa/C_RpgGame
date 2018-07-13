@@ -9,6 +9,8 @@ CMakeFiles/C_RpgGame.dir/Game.cpp.obj
  C:/Users/ausro/Documents/GitHub/C_RpgGame/Game.cpp
  C:/Users/ausro/Documents/GitHub/C_RpgGame/Game.h
  C:/Users/ausro/Documents/GitHub/C_RpgGame/MagicClass.h
+ C:/Users/ausro/Documents/GitHub/C_RpgGame/MeleeClass.h
+ C:/Users/ausro/Documents/GitHub/C_RpgGame/RangedClass.h
 CMakeFiles/C_RpgGame.dir/MagicClass.cpp.obj
  C:/Users/ausro/Documents/GitHub/C_RpgGame/Character.h
  C:/Users/ausro/Documents/GitHub/C_RpgGame/MagicClass.cpp
@@ -18,9 +20,13 @@ CMakeFiles/C_RpgGame.dir/Main.cpp.obj
  C:/Users/ausro/Documents/GitHub/C_RpgGame/Game.h
  C:/Users/ausro/Documents/GitHub/C_RpgGame/MagicClass.h
  C:/Users/ausro/Documents/GitHub/C_RpgGame/Main.cpp
+ C:/Users/ausro/Documents/GitHub/C_RpgGame/MeleeClass.h
+ C:/Users/ausro/Documents/GitHub/C_RpgGame/RangedClass.h
 CMakeFiles/C_RpgGame.dir/MeleeClass.cpp.obj
+ C:/Users/ausro/Documents/GitHub/C_RpgGame/Character.h
  C:/Users/ausro/Documents/GitHub/C_RpgGame/MeleeClass.cpp
  C:/Users/ausro/Documents/GitHub/C_RpgGame/MeleeClass.h
 CMakeFiles/C_RpgGame.dir/RangedClass.cpp.obj
+ C:/Users/ausro/Documents/GitHub/C_RpgGame/Character.h
  C:/Users/ausro/Documents/GitHub/C_RpgGame/RangedClass.cpp
  C:/Users/ausro/Documents/GitHub/C_RpgGame/RangedClass.h

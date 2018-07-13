@@ -3,7 +3,6 @@
 
 int main() {
     Game FGame;
-    MagicClass magic;
     // Character FCharacter;
 
     FGame.GameInit();
