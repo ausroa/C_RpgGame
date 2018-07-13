@@ -6,7 +6,6 @@ int main() {
     Character FCharacter;
 
     FGame.Intro();
-    FCharacter.setName();
     FGame.SelectClass();
 
     while (FGame.GetPlaying()) {

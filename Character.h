@@ -13,15 +13,28 @@ public:
     Character();
     ~Character();
 
+    // Functions
+    void Initialize(int level, std::string name);
+
     // Accessors
-    std::string GetName() { return name; }
+    int GetHealthMin() { return healthMin; };
+    int GetHealthMax() { return healthMax; };
+    int GetStaminaMin() { return staminaMin; };
+    int GetStaminaMax() { return staminaMax; };
+    int GetDamageMin() { return damageMin; };
+    int GetDamageMax() { return damageMax; };
+    int GetManaMin() { return manaMin; };
+    int GetManaMax() { return manaMax; };
+    int GetLevel() { return level; };
+    int GetExp() { return level; };
 
     // Modifiers
-    void setName();
+
 
 private:
     std::string name;
-    int health;
+    int healthMin;
+    int healthMax;
     int staminaMin;
     int staminaMax;
     int damageMin;

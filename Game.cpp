@@ -14,8 +14,11 @@ Game::~Game() {
 }
 
 void Game::Intro() {
-    std::cout << "Welcome to TITLE" << std::endl;
-    std::cout << std::endl;
+    std::cout << "##################\n";
+    std::cout << "#Welcome to TITLE#" << std::endl;
+    std::cout << "##################\n";
+    std::cout << "\nWhat is your name? ";
+    std::getline(std::cin, name);
 }
 
 void Game::SelectClass() {

@@ -23,13 +23,17 @@ public:
     bool isPlaying();
 
     // Accessors
+    std::string GetName() { return name; };
     std::string GetClass(){ return characterClass;};
-    bool GetPlaying() { return playing; };
     int GetPlayerChoice() { return playerChoice; };
+    bool GetPlaying() { return playing; };
+
+
 
     // Modifiers
 
 private:
+    std::string name;
     std::string characterClass;
     int playerChoice;
     bool playing;

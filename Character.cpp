@@ -7,7 +7,8 @@
 
 Character::Character() {
     name = "";
-    health = 100;
+    healthMin = 0;
+    healthMax = 0;
     staminaMax = 0;
     staminaMin = 0;
     damageMin = 0;
@@ -22,11 +23,18 @@ Character::~Character() {
 
 }
 
-void Character::setName() {
-    std::cout << "What is your name? ";
-    std::getline(std::cin, name);
-
-    std::cout << "Hi " + name + "! How far can you get?";
+void Character::Initialize(int level, std::string name) {
+    name = "";
+    this -> healthMin = 10;
+    this -> healthMax = 100;
+    this -> staminaMax = 100;
+    this -> staminaMin = 10;
+    this -> damageMin = 2;
+    this -> damageMax = 4;
+    this -> manaMin = 10;
+    this -> manaMax = 100;
+    this -> level = 1;
+    this -> exp = 0;
 }
 
 
