@@ -47,6 +47,7 @@ protected:
     int manaMax;
     int level;
     int exp;
+    int expNext;
 
 };
 

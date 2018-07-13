@@ -37,6 +37,8 @@ C:/Users/ausro/Documents/GitHub/C_RpgGame/MeleeClass.h
 C:/Users/ausro/Documents/GitHub/C_RpgGame/MagicClass.cpp
 MagicClass.h
 C:/Users/ausro/Documents/GitHub/C_RpgGame/MagicClass.h
+math.h
+-
 
 C:/Users/ausro/Documents/GitHub/C_RpgGame/MagicClass.h
 iostream
@@ -46,6 +48,8 @@ C:/Users/ausro/Documents/GitHub/C_RpgGame/Character.h
 
 C:/Users/ausro/Documents/GitHub/C_RpgGame/Main.cpp
 iostream
+-
+math.h
 -
 Game.h
 C:/Users/ausro/Documents/GitHub/C_RpgGame/Game.h

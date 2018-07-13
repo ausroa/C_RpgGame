@@ -3,6 +3,7 @@
 //
 
 #include "MagicClass.h"
+#include <math.h>
 
 MagicClass::MagicClass() {
     this -> name = "";
@@ -16,6 +17,7 @@ MagicClass::MagicClass() {
     this -> manaMax = 0;
     this -> level = 0;
     this -> exp = 0;
+    this -> expNext = 0;
     this -> selected = false;
 
 }
@@ -36,6 +38,10 @@ void MagicClass::Initialize(std::string name) {
     this -> manaMax = 200;
     this -> level = 1;
     this -> exp = 0;
+    this -> expNext =
+            static_cast<int>(50/3) * (pow(level, 3)) -
+                    6 * (pow(level, 2)) +
+                    ((17 * level - 12));
     this -> selected = true;
 }
 
