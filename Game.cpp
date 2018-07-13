@@ -5,7 +5,6 @@
 #include "Game.h"
 
 Game::Game() {
-    characterClass = "";
     playing = true;
 }
 
@@ -14,10 +13,13 @@ Game::~Game() {
 }
 
 // Intro To Game
-void Game::Intro() {
-    std::cout << "##################\n";
-    std::cout << "#Welcome to TITLE#" << std::endl;
-    std::cout << "##################\n";
+void Game::GameInit() {
+    std::string name;
+    std::string playerClass;
+
+    std::cout << "####################\n";
+    std::cout << "# Welcome to TITLE #" << std::endl;
+    std::cout << "####################\n";
     std::cout << "\nWhat is your name? ";
     std::getline(std::cin, name);
 
@@ -26,12 +28,20 @@ void Game::Intro() {
     std::cout << "2. Ranged" << std::endl;
     std::cout << "3. Magic\n" << std::endl;
     std::cout << "choice: ";
-    std::cin >> characterClass;
+    std::cin >> playerClass;
 
     // Game Initialized based off class selection
-    if (characterClass == "Melee" || characterClass == "melee") {
-        //magicClass.Initialize();
+    if ( playerClass == "Magic" || playerClass == "magic") {
+        magicClass.Initialize(name);
+
     }
+    else if (playerClass == "Ranged" || playerClass == "ranged") {
+        rangedClass.Initialize(name);
+    }
+    else if (playerClass == "Melee" || playerClass == "melee") {
+        meleeClass.Initialize(name);
+    }
+
 }
 
 void Game::MainMenu() {
@@ -46,11 +56,23 @@ void Game::MainMenu() {
     std::cout << "======================" << std::endl;
     std::cout << "choice: ";
     std::cin >> playerChoice;
+    std::cout << std::endl;
 }
 
 // Main Menu selection
 bool Game::isPlaying() {
     switch (playerChoice) {
+        case 3:
+            if (magicClass.IsSelected()) {
+                magicClass.PrintStats();
+            }
+            else if (rangedClass.IsSelected()) {
+                rangedClass.PrintStats();
+            }
+            else if (meleeClass.IsSelected()) {
+                meleeClass.PrintStats();
+            }
+            break;
         case 7:
             playing = false;
             break;

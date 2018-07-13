@@ -4,7 +4,7 @@
 //****************************
 // Class might not be needed
 //****************************
-/*
+
 #ifndef C_RPGGAME_CHARACTER_H
 #define C_RPGGAME_CHARACTER_H
 
@@ -16,9 +16,8 @@ public:
     ~Character();
 
     // Functions
-    void Initialize(int level, std::string class);
-
-
+    // void Initialize(std::string name, std::string playerClass);
+    void isSelected(std::string playerClass);
     // Accessors
     int GetHealthMin() { return healthMin; };
     int GetHealthMax() { return healthMax; };
@@ -30,12 +29,14 @@ public:
     int GetManaMax() { return manaMax; };
     int GetLevel() { return level; };
     int GetExp() { return level; };
+    bool IsSelected() { return selected; };
 
     // Modifiers
 
 
-private:
+protected:
     std::string name;
+    bool selected;
     int healthMin;
     int healthMax;
     int staminaMin;
@@ -46,9 +47,9 @@ private:
     int manaMax;
     int level;
     int exp;
+    int expNext;
 
 };
 
 
 #endif //C_RPGGAME_CHARACTER_H
-*/

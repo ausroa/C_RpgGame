@@ -5,9 +5,16 @@
 #ifndef C_RPGGAME_MELEECLASS_H
 #define C_RPGGAME_MELEECLASS_H
 
+#include <iostream>
+#include "Character.h"
 
-class MeleeClass {
+class MeleeClass: public Character {
+public:
+    MeleeClass();
+    ~MeleeClass();
 
+    void Initialize(std::string name);
+    void PrintStats();
 };
 
 

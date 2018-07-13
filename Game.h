@@ -8,6 +8,8 @@
 #include <string>
 #include "Character.h"
 #include "MagicClass.h"
+#include "RangedClass.h"
+#include "MeleeClass.h"
 
 
 class Game {
@@ -18,26 +20,24 @@ public:
     // Operators
 
     // Functions
-    void Intro();
+    void GameInit();
     void MainMenu();
     bool isPlaying();
 
     // Accessors
-    std::string GetName() { return name; };
-    std::string GetClass(){ return characterClass; };
     int GetPlayerChoice() { return playerChoice; };
     bool GetPlaying() { return playing; };
 
     // Modifiers
 
 private:
-    std::string name;
-    std::string characterClass;
     int playerChoice;
     bool playing;
 
     // Character related
     MagicClass magicClass;
+    RangedClass rangedClass;
+    MeleeClass meleeClass;
 };
 
 
