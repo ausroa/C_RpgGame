@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/ausro/Documents/GitHub/C_RpgGame/Game.cpp
+Game.h
+C:/Users/ausro/Documents/GitHub/C_RpgGame/Game.h
+
+C:/Users/ausro/Documents/GitHub/C_RpgGame/Game.h
+iostream
+-
+string
+-
+
+C:/Users/ausro/Documents/GitHub/C_RpgGame/Main.cpp
+iostream
+-
+Game.h
+C:/Users/ausro/Documents/GitHub/C_RpgGame/Game.h
+
