@@ -11,13 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ee08d97-449d-44f7-acb1-110325cd68f4" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Character.h" beforeDir="false" afterPath="$PROJECT_DIR$/Character.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MagicClass.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/MagicClass.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_RpgGame.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_RpgGame.dir/CXX.includecache" afterDir="false" />
-    </list>
+    <list default="true" id="1ee08d97-449d-44f7-acb1-110325cd68f4" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -254,12 +248,12 @@
       <option name="presentableId" value="Default" />
       <updated>1531440784949</updated>
       <workItem from="1531440786954" duration="17774000" />
-      <workItem from="1531493340191" duration="17249000" />
+      <workItem from="1531493340191" duration="17790000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35023000" />
+    <option name="totallyTimeSpent" value="35564000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
@@ -271,7 +265,7 @@
       <window_info anchor="bottom" id="CMake" order="7" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37329128" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37329128" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32912722" />
       <window_info id="Favorites" order="2" side_tool="true" />
