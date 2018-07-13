@@ -18,7 +18,7 @@ public:
     // Operators
 
     // Functions
-    void Intro();
+    void GameInit();
     void MainMenu();
     bool isPlaying();
 
@@ -37,7 +37,7 @@ private:
     bool playing;
 
     // Character related
-    MagicClass magicClass;
+    MagicClass magic;
 };
 
 

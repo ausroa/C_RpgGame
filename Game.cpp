@@ -14,7 +14,7 @@ Game::~Game() {
 }
 
 // Intro To Game
-void Game::Intro() {
+void Game::GameInit() {
     std::cout << "##################\n";
     std::cout << "#Welcome to TITLE#" << std::endl;
     std::cout << "##################\n";
@@ -30,7 +30,7 @@ void Game::Intro() {
 
     // Game Initialized based off class selection
     if (characterClass == "Melee" || characterClass == "melee") {
-        //magicClass.Initialize();
+        magic.Initialize(name, characterClass);
     }
 }
 

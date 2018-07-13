@@ -9,6 +9,7 @@ CMakeFiles/C_RpgGame.dir/Game.cpp.obj: ../Game.cpp
 CMakeFiles/C_RpgGame.dir/Game.cpp.obj: ../Game.h
 CMakeFiles/C_RpgGame.dir/Game.cpp.obj: ../MagicClass.h
 
+CMakeFiles/C_RpgGame.dir/MagicClass.cpp.obj: ../Character.h
 CMakeFiles/C_RpgGame.dir/MagicClass.cpp.obj: ../MagicClass.cpp
 CMakeFiles/C_RpgGame.dir/MagicClass.cpp.obj: ../MagicClass.h
 

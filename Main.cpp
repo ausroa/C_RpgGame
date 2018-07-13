@@ -3,9 +3,10 @@
 
 int main() {
     Game FGame;
+    MagicClass magic;
     // Character FCharacter;
 
-    FGame.Intro();
+    FGame.GameInit();
 
     while (FGame.GetPlaying()) {
         FGame.MainMenu();

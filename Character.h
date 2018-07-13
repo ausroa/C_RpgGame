@@ -4,7 +4,7 @@
 //****************************
 // Class might not be needed
 //****************************
-/*
+
 #ifndef C_RPGGAME_CHARACTER_H
 #define C_RPGGAME_CHARACTER_H
 
@@ -16,8 +16,7 @@ public:
     ~Character();
 
     // Functions
-    void Initialize(int level, std::string class);
-
+    void Initialize(std::string name, std::string playerClass);
 
     // Accessors
     int GetHealthMin() { return healthMin; };
@@ -34,8 +33,9 @@ public:
     // Modifiers
 
 
-private:
+protected:
     std::string name;
+    std::string playerClass;
     int healthMin;
     int healthMax;
     int staminaMin;
@@ -51,4 +51,3 @@ private:
 
 
 #endif //C_RPGGAME_CHARACTER_H
-*/
