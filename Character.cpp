@@ -1,7 +1,10 @@
 //
 // Created by ausro on 7/12/2018.
 //
-
+//****************************
+// Header Might not be needed
+//****************************
+/*
 #include <iostream>
 #include "Character.h"
 
@@ -36,5 +39,7 @@ void Character::Initialize(int level, std::string name) {
     this -> level = 1;
     this -> exp = 0;
 }
+
+*/
 
 

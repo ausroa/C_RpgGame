@@ -13,32 +13,37 @@ Game::~Game() {
 
 }
 
+// Intro To Game
 void Game::Intro() {
     std::cout << "##################\n";
     std::cout << "#Welcome to TITLE#" << std::endl;
     std::cout << "##################\n";
     std::cout << "\nWhat is your name? ";
     std::getline(std::cin, name);
-}
 
-void Game::SelectClass() {
     std::cout << "What class would you like to be? \n" << std::endl;
     std::cout << "1. Melee" << std::endl;
     std::cout << "2. Ranged" << std::endl;
     std::cout << "3. Magic\n" << std::endl;
     std::cout << "choice: ";
     std::cin >> characterClass;
+
+    // Game Initialized based off class selection
+    if (characterClass == "Melee" || characterClass == "melee") {
+        //magicClass.Initialize();
+    }
 }
 
 void Game::MainMenu() {
     std::cout << "======MAIN==MENU======"<< std::endl;
-    std::cout << "1. Skills" << std::endl;
-    std::cout << "2. Level" << std::endl;
-    std::cout << "3. Stats" << std::endl;
-    std::cout << "4. Shop" <<std::endl;
-    std::cout << "5. Travel" << std::endl;
-    std::cout << "6. Inventory" << std::endl;
-    std::cout << "7. Quit" << std::endl;
+    std::cout << "|| 1. Skills        ||" << std::endl;
+    std::cout << "|| 2. Level         ||" << std::endl;
+    std::cout << "|| 3. Stats         ||" << std::endl;
+    std::cout << "|| 4. Shop          ||" <<std::endl;
+    std::cout << "|| 5. Travel        ||" << std::endl;
+    std::cout << "|| 6. Inventory     ||" << std::endl;
+    std::cout << "|| 7. Quit          ||" << std::endl;
+    std::cout << "======================" << std::endl;
     std::cout << "choice: ";
     std::cin >> playerChoice;
 }
@@ -53,3 +58,5 @@ bool Game::isPlaying() {
             break;
     }
 }
+
+

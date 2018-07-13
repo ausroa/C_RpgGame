@@ -7,6 +7,7 @@
 #include <iostream>
 #include <string>
 #include "Character.h"
+#include "MagicClass.h"
 
 
 class Game {
@@ -18,17 +19,14 @@ public:
 
     // Functions
     void Intro();
-    void SelectClass();
     void MainMenu();
     bool isPlaying();
 
     // Accessors
     std::string GetName() { return name; };
-    std::string GetClass(){ return characterClass;};
+    std::string GetClass(){ return characterClass; };
     int GetPlayerChoice() { return playerChoice; };
     bool GetPlaying() { return playing; };
-
-
 
     // Modifiers
 
@@ -37,6 +35,9 @@ private:
     std::string characterClass;
     int playerChoice;
     bool playing;
+
+    // Character related
+    MagicClass magicClass;
 };
 
 

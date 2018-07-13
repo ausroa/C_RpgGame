@@ -3,10 +3,9 @@
 
 int main() {
     Game FGame;
-    Character FCharacter;
+    // Character FCharacter;
 
     FGame.Intro();
-    FGame.SelectClass();
 
     while (FGame.GetPlaying()) {
         FGame.MainMenu();

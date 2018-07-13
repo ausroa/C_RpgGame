@@ -1,10 +1,12 @@
 //
 // Created by ausro on 7/12/2018.
 //
-
+//****************************
+// Class might not be needed
+//****************************
+/*
 #ifndef C_RPGGAME_CHARACTER_H
 #define C_RPGGAME_CHARACTER_H
-
 
 #include <string>
 
@@ -14,7 +16,8 @@ public:
     ~Character();
 
     // Functions
-    void Initialize(int level, std::string name);
+    void Initialize(int level, std::string class);
+
 
     // Accessors
     int GetHealthMin() { return healthMin; };
@@ -48,3 +51,4 @@ private:
 
 
 #endif //C_RPGGAME_CHARACTER_H
+*/
