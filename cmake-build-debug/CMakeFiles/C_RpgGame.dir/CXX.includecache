@@ -6,6 +6,16 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/ausro/Documents/GitHub/C_RpgGame/Character.cpp
+iostream
+-
+Character.h
+C:/Users/ausro/Documents/GitHub/C_RpgGame/Character.h
+
+C:/Users/ausro/Documents/GitHub/C_RpgGame/Character.h
+string
+-
+
 C:/Users/ausro/Documents/GitHub/C_RpgGame/Game.cpp
 Game.h
 C:/Users/ausro/Documents/GitHub/C_RpgGame/Game.h
@@ -15,10 +25,30 @@ iostream
 -
 string
 -
+Character.h
+C:/Users/ausro/Documents/GitHub/C_RpgGame/Character.h
+
+C:/Users/ausro/Documents/GitHub/C_RpgGame/MagicClass.cpp
+MagicClass.h
+C:/Users/ausro/Documents/GitHub/C_RpgGame/MagicClass.h
+
+C:/Users/ausro/Documents/GitHub/C_RpgGame/MagicClass.h
 
 C:/Users/ausro/Documents/GitHub/C_RpgGame/Main.cpp
 iostream
 -
 Game.h
 C:/Users/ausro/Documents/GitHub/C_RpgGame/Game.h
+
+C:/Users/ausro/Documents/GitHub/C_RpgGame/MeleeClass.cpp
+MeleeClass.h
+C:/Users/ausro/Documents/GitHub/C_RpgGame/MeleeClass.h
+
+C:/Users/ausro/Documents/GitHub/C_RpgGame/MeleeClass.h
+
+C:/Users/ausro/Documents/GitHub/C_RpgGame/RangedClass.cpp
+RangedClass.h
+C:/Users/ausro/Documents/GitHub/C_RpgGame/RangedClass.h
+
+C:/Users/ausro/Documents/GitHub/C_RpgGame/RangedClass.h
 

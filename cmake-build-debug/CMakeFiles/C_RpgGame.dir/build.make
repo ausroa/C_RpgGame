@@ -104,21 +104,125 @@ CMakeFiles/C_RpgGame.dir/Game.cpp.obj.provides: CMakeFiles/C_RpgGame.dir/Game.cp
 CMakeFiles/C_RpgGame.dir/Game.cpp.obj.provides.build: CMakeFiles/C_RpgGame.dir/Game.cpp.obj
 
 
+CMakeFiles/C_RpgGame.dir/MagicClass.cpp.obj: CMakeFiles/C_RpgGame.dir/flags.make
+CMakeFiles/C_RpgGame.dir/MagicClass.cpp.obj: ../MagicClass.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ausro\Documents\GitHub\C_RpgGame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/C_RpgGame.dir/MagicClass.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\C_RpgGame.dir\MagicClass.cpp.obj -c C:\Users\ausro\Documents\GitHub\C_RpgGame\MagicClass.cpp
+
+CMakeFiles/C_RpgGame.dir/MagicClass.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/C_RpgGame.dir/MagicClass.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ausro\Documents\GitHub\C_RpgGame\MagicClass.cpp > CMakeFiles\C_RpgGame.dir\MagicClass.cpp.i
+
+CMakeFiles/C_RpgGame.dir/MagicClass.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/C_RpgGame.dir/MagicClass.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ausro\Documents\GitHub\C_RpgGame\MagicClass.cpp -o CMakeFiles\C_RpgGame.dir\MagicClass.cpp.s
+
+CMakeFiles/C_RpgGame.dir/MagicClass.cpp.obj.requires:
+
+.PHONY : CMakeFiles/C_RpgGame.dir/MagicClass.cpp.obj.requires
+
+CMakeFiles/C_RpgGame.dir/MagicClass.cpp.obj.provides: CMakeFiles/C_RpgGame.dir/MagicClass.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\C_RpgGame.dir\build.make CMakeFiles/C_RpgGame.dir/MagicClass.cpp.obj.provides.build
+.PHONY : CMakeFiles/C_RpgGame.dir/MagicClass.cpp.obj.provides
+
+CMakeFiles/C_RpgGame.dir/MagicClass.cpp.obj.provides.build: CMakeFiles/C_RpgGame.dir/MagicClass.cpp.obj
+
+
+CMakeFiles/C_RpgGame.dir/RangedClass.cpp.obj: CMakeFiles/C_RpgGame.dir/flags.make
+CMakeFiles/C_RpgGame.dir/RangedClass.cpp.obj: ../RangedClass.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ausro\Documents\GitHub\C_RpgGame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/C_RpgGame.dir/RangedClass.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\C_RpgGame.dir\RangedClass.cpp.obj -c C:\Users\ausro\Documents\GitHub\C_RpgGame\RangedClass.cpp
+
+CMakeFiles/C_RpgGame.dir/RangedClass.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/C_RpgGame.dir/RangedClass.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ausro\Documents\GitHub\C_RpgGame\RangedClass.cpp > CMakeFiles\C_RpgGame.dir\RangedClass.cpp.i
+
+CMakeFiles/C_RpgGame.dir/RangedClass.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/C_RpgGame.dir/RangedClass.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ausro\Documents\GitHub\C_RpgGame\RangedClass.cpp -o CMakeFiles\C_RpgGame.dir\RangedClass.cpp.s
+
+CMakeFiles/C_RpgGame.dir/RangedClass.cpp.obj.requires:
+
+.PHONY : CMakeFiles/C_RpgGame.dir/RangedClass.cpp.obj.requires
+
+CMakeFiles/C_RpgGame.dir/RangedClass.cpp.obj.provides: CMakeFiles/C_RpgGame.dir/RangedClass.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\C_RpgGame.dir\build.make CMakeFiles/C_RpgGame.dir/RangedClass.cpp.obj.provides.build
+.PHONY : CMakeFiles/C_RpgGame.dir/RangedClass.cpp.obj.provides
+
+CMakeFiles/C_RpgGame.dir/RangedClass.cpp.obj.provides.build: CMakeFiles/C_RpgGame.dir/RangedClass.cpp.obj
+
+
+CMakeFiles/C_RpgGame.dir/MeleeClass.cpp.obj: CMakeFiles/C_RpgGame.dir/flags.make
+CMakeFiles/C_RpgGame.dir/MeleeClass.cpp.obj: ../MeleeClass.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ausro\Documents\GitHub\C_RpgGame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/C_RpgGame.dir/MeleeClass.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\C_RpgGame.dir\MeleeClass.cpp.obj -c C:\Users\ausro\Documents\GitHub\C_RpgGame\MeleeClass.cpp
+
+CMakeFiles/C_RpgGame.dir/MeleeClass.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/C_RpgGame.dir/MeleeClass.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ausro\Documents\GitHub\C_RpgGame\MeleeClass.cpp > CMakeFiles\C_RpgGame.dir\MeleeClass.cpp.i
+
+CMakeFiles/C_RpgGame.dir/MeleeClass.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/C_RpgGame.dir/MeleeClass.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ausro\Documents\GitHub\C_RpgGame\MeleeClass.cpp -o CMakeFiles\C_RpgGame.dir\MeleeClass.cpp.s
+
+CMakeFiles/C_RpgGame.dir/MeleeClass.cpp.obj.requires:
+
+.PHONY : CMakeFiles/C_RpgGame.dir/MeleeClass.cpp.obj.requires
+
+CMakeFiles/C_RpgGame.dir/MeleeClass.cpp.obj.provides: CMakeFiles/C_RpgGame.dir/MeleeClass.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\C_RpgGame.dir\build.make CMakeFiles/C_RpgGame.dir/MeleeClass.cpp.obj.provides.build
+.PHONY : CMakeFiles/C_RpgGame.dir/MeleeClass.cpp.obj.provides
+
+CMakeFiles/C_RpgGame.dir/MeleeClass.cpp.obj.provides.build: CMakeFiles/C_RpgGame.dir/MeleeClass.cpp.obj
+
+
+CMakeFiles/C_RpgGame.dir/Character.cpp.obj: CMakeFiles/C_RpgGame.dir/flags.make
+CMakeFiles/C_RpgGame.dir/Character.cpp.obj: ../Character.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ausro\Documents\GitHub\C_RpgGame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/C_RpgGame.dir/Character.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\C_RpgGame.dir\Character.cpp.obj -c C:\Users\ausro\Documents\GitHub\C_RpgGame\Character.cpp
+
+CMakeFiles/C_RpgGame.dir/Character.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/C_RpgGame.dir/Character.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ausro\Documents\GitHub\C_RpgGame\Character.cpp > CMakeFiles\C_RpgGame.dir\Character.cpp.i
+
+CMakeFiles/C_RpgGame.dir/Character.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/C_RpgGame.dir/Character.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ausro\Documents\GitHub\C_RpgGame\Character.cpp -o CMakeFiles\C_RpgGame.dir\Character.cpp.s
+
+CMakeFiles/C_RpgGame.dir/Character.cpp.obj.requires:
+
+.PHONY : CMakeFiles/C_RpgGame.dir/Character.cpp.obj.requires
+
+CMakeFiles/C_RpgGame.dir/Character.cpp.obj.provides: CMakeFiles/C_RpgGame.dir/Character.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\C_RpgGame.dir\build.make CMakeFiles/C_RpgGame.dir/Character.cpp.obj.provides.build
+.PHONY : CMakeFiles/C_RpgGame.dir/Character.cpp.obj.provides
+
+CMakeFiles/C_RpgGame.dir/Character.cpp.obj.provides.build: CMakeFiles/C_RpgGame.dir/Character.cpp.obj
+
+
 # Object files for target C_RpgGame
 C_RpgGame_OBJECTS = \
 "CMakeFiles/C_RpgGame.dir/Main.cpp.obj" \
-"CMakeFiles/C_RpgGame.dir/Game.cpp.obj"
+"CMakeFiles/C_RpgGame.dir/Game.cpp.obj" \
+"CMakeFiles/C_RpgGame.dir/MagicClass.cpp.obj" \
+"CMakeFiles/C_RpgGame.dir/RangedClass.cpp.obj" \
+"CMakeFiles/C_RpgGame.dir/MeleeClass.cpp.obj" \
+"CMakeFiles/C_RpgGame.dir/Character.cpp.obj"
 
 # External object files for target C_RpgGame
 C_RpgGame_EXTERNAL_OBJECTS =
 
 C_RpgGame.exe: CMakeFiles/C_RpgGame.dir/Main.cpp.obj
 C_RpgGame.exe: CMakeFiles/C_RpgGame.dir/Game.cpp.obj
+C_RpgGame.exe: CMakeFiles/C_RpgGame.dir/MagicClass.cpp.obj
+C_RpgGame.exe: CMakeFiles/C_RpgGame.dir/RangedClass.cpp.obj
+C_RpgGame.exe: CMakeFiles/C_RpgGame.dir/MeleeClass.cpp.obj
+C_RpgGame.exe: CMakeFiles/C_RpgGame.dir/Character.cpp.obj
 C_RpgGame.exe: CMakeFiles/C_RpgGame.dir/build.make
 C_RpgGame.exe: CMakeFiles/C_RpgGame.dir/linklibs.rsp
 C_RpgGame.exe: CMakeFiles/C_RpgGame.dir/objects1.rsp
 C_RpgGame.exe: CMakeFiles/C_RpgGame.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\ausro\Documents\GitHub\C_RpgGame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable C_RpgGame.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\ausro\Documents\GitHub\C_RpgGame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable C_RpgGame.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\C_RpgGame.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -128,6 +232,10 @@ CMakeFiles/C_RpgGame.dir/build: C_RpgGame.exe
 
 CMakeFiles/C_RpgGame.dir/requires: CMakeFiles/C_RpgGame.dir/Main.cpp.obj.requires
 CMakeFiles/C_RpgGame.dir/requires: CMakeFiles/C_RpgGame.dir/Game.cpp.obj.requires
+CMakeFiles/C_RpgGame.dir/requires: CMakeFiles/C_RpgGame.dir/MagicClass.cpp.obj.requires
+CMakeFiles/C_RpgGame.dir/requires: CMakeFiles/C_RpgGame.dir/RangedClass.cpp.obj.requires
+CMakeFiles/C_RpgGame.dir/requires: CMakeFiles/C_RpgGame.dir/MeleeClass.cpp.obj.requires
+CMakeFiles/C_RpgGame.dir/requires: CMakeFiles/C_RpgGame.dir/Character.cpp.obj.requires
 
 .PHONY : CMakeFiles/C_RpgGame.dir/requires
 

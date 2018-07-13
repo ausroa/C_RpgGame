@@ -6,6 +6,7 @@
 #define C_RPGGAME_GAME_H
 #include <iostream>
 #include <string>
+#include "Character.h"
 
 
 class Game {
@@ -18,14 +19,14 @@ public:
     // Functions
     void Intro();
     void SelectClass();
+    void MainMenu();
 
     // Accessors
-    std::string GetName(){ return name;};
+    std::string GetClass(){ return characterClass;};
 
     // Modifiers
 
 private:
-    std::string name;
     std::string characterClass;
 };
 

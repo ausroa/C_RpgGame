@@ -122,6 +122,33 @@ C_RpgGame/fast:
 	$(MAKE) -f CMakeFiles\C_RpgGame.dir\build.make CMakeFiles/C_RpgGame.dir/build
 .PHONY : C_RpgGame/fast
 
+Character.obj: Character.cpp.obj
+
+.PHONY : Character.obj
+
+# target to build an object file
+Character.cpp.obj:
+	$(MAKE) -f CMakeFiles\C_RpgGame.dir\build.make CMakeFiles/C_RpgGame.dir/Character.cpp.obj
+.PHONY : Character.cpp.obj
+
+Character.i: Character.cpp.i
+
+.PHONY : Character.i
+
+# target to preprocess a source file
+Character.cpp.i:
+	$(MAKE) -f CMakeFiles\C_RpgGame.dir\build.make CMakeFiles/C_RpgGame.dir/Character.cpp.i
+.PHONY : Character.cpp.i
+
+Character.s: Character.cpp.s
+
+.PHONY : Character.s
+
+# target to generate assembly for a file
+Character.cpp.s:
+	$(MAKE) -f CMakeFiles\C_RpgGame.dir\build.make CMakeFiles/C_RpgGame.dir/Character.cpp.s
+.PHONY : Character.cpp.s
+
 Game.obj: Game.cpp.obj
 
 .PHONY : Game.obj
@@ -148,6 +175,33 @@ Game.s: Game.cpp.s
 Game.cpp.s:
 	$(MAKE) -f CMakeFiles\C_RpgGame.dir\build.make CMakeFiles/C_RpgGame.dir/Game.cpp.s
 .PHONY : Game.cpp.s
+
+MagicClass.obj: MagicClass.cpp.obj
+
+.PHONY : MagicClass.obj
+
+# target to build an object file
+MagicClass.cpp.obj:
+	$(MAKE) -f CMakeFiles\C_RpgGame.dir\build.make CMakeFiles/C_RpgGame.dir/MagicClass.cpp.obj
+.PHONY : MagicClass.cpp.obj
+
+MagicClass.i: MagicClass.cpp.i
+
+.PHONY : MagicClass.i
+
+# target to preprocess a source file
+MagicClass.cpp.i:
+	$(MAKE) -f CMakeFiles\C_RpgGame.dir\build.make CMakeFiles/C_RpgGame.dir/MagicClass.cpp.i
+.PHONY : MagicClass.cpp.i
+
+MagicClass.s: MagicClass.cpp.s
+
+.PHONY : MagicClass.s
+
+# target to generate assembly for a file
+MagicClass.cpp.s:
+	$(MAKE) -f CMakeFiles\C_RpgGame.dir\build.make CMakeFiles/C_RpgGame.dir/MagicClass.cpp.s
+.PHONY : MagicClass.cpp.s
 
 Main.obj: Main.cpp.obj
 
@@ -176,6 +230,60 @@ Main.cpp.s:
 	$(MAKE) -f CMakeFiles\C_RpgGame.dir\build.make CMakeFiles/C_RpgGame.dir/Main.cpp.s
 .PHONY : Main.cpp.s
 
+MeleeClass.obj: MeleeClass.cpp.obj
+
+.PHONY : MeleeClass.obj
+
+# target to build an object file
+MeleeClass.cpp.obj:
+	$(MAKE) -f CMakeFiles\C_RpgGame.dir\build.make CMakeFiles/C_RpgGame.dir/MeleeClass.cpp.obj
+.PHONY : MeleeClass.cpp.obj
+
+MeleeClass.i: MeleeClass.cpp.i
+
+.PHONY : MeleeClass.i
+
+# target to preprocess a source file
+MeleeClass.cpp.i:
+	$(MAKE) -f CMakeFiles\C_RpgGame.dir\build.make CMakeFiles/C_RpgGame.dir/MeleeClass.cpp.i
+.PHONY : MeleeClass.cpp.i
+
+MeleeClass.s: MeleeClass.cpp.s
+
+.PHONY : MeleeClass.s
+
+# target to generate assembly for a file
+MeleeClass.cpp.s:
+	$(MAKE) -f CMakeFiles\C_RpgGame.dir\build.make CMakeFiles/C_RpgGame.dir/MeleeClass.cpp.s
+.PHONY : MeleeClass.cpp.s
+
+RangedClass.obj: RangedClass.cpp.obj
+
+.PHONY : RangedClass.obj
+
+# target to build an object file
+RangedClass.cpp.obj:
+	$(MAKE) -f CMakeFiles\C_RpgGame.dir\build.make CMakeFiles/C_RpgGame.dir/RangedClass.cpp.obj
+.PHONY : RangedClass.cpp.obj
+
+RangedClass.i: RangedClass.cpp.i
+
+.PHONY : RangedClass.i
+
+# target to preprocess a source file
+RangedClass.cpp.i:
+	$(MAKE) -f CMakeFiles\C_RpgGame.dir\build.make CMakeFiles/C_RpgGame.dir/RangedClass.cpp.i
+.PHONY : RangedClass.cpp.i
+
+RangedClass.s: RangedClass.cpp.s
+
+.PHONY : RangedClass.s
+
+# target to generate assembly for a file
+RangedClass.cpp.s:
+	$(MAKE) -f CMakeFiles\C_RpgGame.dir\build.make CMakeFiles/C_RpgGame.dir/RangedClass.cpp.s
+.PHONY : RangedClass.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -185,12 +293,24 @@ help:
 	@echo ... C_RpgGame
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... Character.obj
+	@echo ... Character.i
+	@echo ... Character.s
 	@echo ... Game.obj
 	@echo ... Game.i
 	@echo ... Game.s
+	@echo ... MagicClass.obj
+	@echo ... MagicClass.i
+	@echo ... MagicClass.s
 	@echo ... Main.obj
 	@echo ... Main.i
 	@echo ... Main.s
+	@echo ... MeleeClass.obj
+	@echo ... MeleeClass.i
+	@echo ... MeleeClass.s
+	@echo ... RangedClass.obj
+	@echo ... RangedClass.i
+	@echo ... RangedClass.s
 .PHONY : help
 
 
