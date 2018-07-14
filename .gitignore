@@ -36,3 +36,4 @@
 
 # Cmake Directories
 /cmake-build-release/*
+/cmake-build-debug/*
