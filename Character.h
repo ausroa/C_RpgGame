@@ -45,9 +45,18 @@ protected:
     int damageMax;
     int manaMin;
     int manaMax;
+
     int level;
     int exp;
     int expNext;
+
+    int defense;
+    int strength;
+    int magic;
+    int accuracy;
+    int luck;
+    int speech;
+    int stamina;
 
 };
 

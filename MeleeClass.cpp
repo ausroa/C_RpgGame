@@ -14,10 +14,19 @@ MeleeClass::MeleeClass() {
     this -> damageMax = 0;
     this -> manaMin = 0;
     this -> manaMax = 0;
+
     this -> level = 0;
     this -> exp = 0;
     this -> expNext = 0;
     this -> selected = false;
+
+    this -> defense = 0;
+    this -> strength = 0;
+    this -> magic = 0;
+    this -> accuracy = 0;
+    this -> luck = 0;
+    this -> speech = 0;
+    this -> stamina = 0;
 }
 
 MeleeClass::~MeleeClass() {
@@ -34,6 +43,7 @@ void MeleeClass::Initialize(std::string name) {
     this -> damageMax = 4;
     this -> manaMin = 10;
     this -> manaMax = 200;
+
     this -> level = 1;
     this -> exp = 0;
     this -> expNext =
@@ -41,10 +51,18 @@ void MeleeClass::Initialize(std::string name) {
             6 * (pow(level, 2)) +
             ((17 * level - 12));
     this -> selected = true;
+
+    this -> defense = 10;
+    this -> strength = 10;
+    this -> magic = 10;
+    this -> accuracy = 10;
+    this -> luck = 10;
+    this -> speech = 10;
+    this -> stamina = 10;
 }
 
 void MeleeClass::PrintStats() {
-    std::cout << "===========STATS===========" << std::endl;
+    std::cout << "\n===========STATS===========" << std::endl;
     std::cout << "      = Melee Class =" << std::endl;
     std::cout << "= Name: " << this -> name << std::endl;
     std::cout << "= Level: " << this -> level << std::endl;
@@ -54,5 +72,14 @@ void MeleeClass::PrintStats() {
     std::cout << "= Stamina: " << this -> staminaMin << " - " << staminaMax << std::endl;
     std::cout << "= Damage: " << this -> damageMin << " - " << damageMax << std::endl;
     std::cout << "= Mana: " << this -> manaMin << " - " << manaMax << std::endl;
+    std::cout << std::endl;
+    std::cout << "= Defense: " << this -> defense << std::endl;
+    std::cout << "= Strength: " << this -> strength << std::endl;
+    std::cout << "= Magic: " << this -> magic << std::endl;
+    std::cout << "= Accuracy: " << this -> accuracy << std::endl;
+    std::cout << "= Luck: " << this -> luck << std::endl;
+    std::cout << "= Speech: " << this -> speech << std::endl;
+    std::cout << "= Stamina: " << this -> stamina << std::endl;
+    std::cout << std::endl;
     std::cout << std::endl;
 }
