@@ -1,6 +1,6 @@
 #include <iostream>
 #include <math.h>
-#include "Game.h"
+#include "../headers/Game.h"
 
 int main() {
     Game FGame;

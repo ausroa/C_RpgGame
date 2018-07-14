@@ -3,4 +3,4 @@ project(C_RpgGame)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(C_RpgGame Main.cpp Game.cpp Game.h MagicClass.cpp MagicClass.h RangedClass.cpp RangedClass.h MeleeClass.cpp MeleeClass.h Character.cpp Character.h)
+add_executable(C_RpgGame sources/Main.cpp sources/Game.cpp headers/Game.h sources/MagicClass.cpp headers/MagicClass.h sources/RangedClass.cpp headers/RangedClass.h sources/MeleeClass.cpp headers/MeleeClass.h Character.cpp headers/Character.h)
