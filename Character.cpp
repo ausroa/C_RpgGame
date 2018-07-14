@@ -28,6 +28,12 @@ Character::Character() {
 Character::~Character() {
 
 }
+
+void Character::levelUp() {
+    if (exp >= expNext) {
+        level++;
+    }
+}
 /*
 void Character::isSelected(std::string playerClass) {
 

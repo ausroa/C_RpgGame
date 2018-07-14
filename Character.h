@@ -14,10 +14,10 @@ class Character {
 public:
     Character();
     ~Character();
-    
+
     // Functions
     // void Initialize(std::string name, std::string playerClass);
-
+    void levelUp();
     // Accessors
     int GetHealthMin() { return healthMin; };
     int GetHealthMax() { return healthMax; };
