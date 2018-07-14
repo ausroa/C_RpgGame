@@ -2,7 +2,7 @@
 // Created by ausro on 7/12/2018.
 //
 
-#include "Game.h"
+#include "../headers/Game.h"
 
 Game::Game() {
     playing = true;
@@ -31,14 +31,14 @@ void Game::GameInit() {
     std::cin >> playerClass;
 
     // Game Initialized based off class selection
-    if ( playerClass == "Magic" || playerClass == "magic") {
+    if ( playerClass == "Magic" || playerClass == "magic" || playerClass == "3") {
         magicClass.Initialize(name);
 
     }
-    else if (playerClass == "Ranged" || playerClass == "ranged") {
+    else if (playerClass == "Ranged" || playerClass == "ranged" || playerClass == "2") {
         rangedClass.Initialize(name);
     }
-    else if (playerClass == "Melee" || playerClass == "melee") {
+    else if (playerClass == "Melee" || playerClass == "melee" || playerClass == "1") {
         meleeClass.Initialize(name);
     }
 
@@ -79,6 +79,7 @@ bool Game::isPlaying() {
         default:
             break;
     }
+    return playing;
 }
 
 

@@ -2,10 +2,10 @@
 // Created by ausro on 7/12/2018.
 //
 
-#include "RangedClass.h"
+#include "../headers/MagicClass.h"
 #include <math.h>
 
-RangedClass::RangedClass() {
+MagicClass::MagicClass() {
     this -> name = "";
     this -> healthMin = 0;
     this -> healthMax = 0;
@@ -19,13 +19,14 @@ RangedClass::RangedClass() {
     this -> exp = 0;
     this -> expNext = 0;
     this -> selected = false;
-}
-
-RangedClass::~RangedClass() {
 
 }
 
-void RangedClass::Initialize(std::string name) {
+MagicClass::~MagicClass() {
+
+}
+
+void MagicClass::Initialize(std::string name) {
     this -> name = name;
     this -> healthMin = 10;
     this -> healthMax = 100;
@@ -34,19 +35,19 @@ void RangedClass::Initialize(std::string name) {
     this -> damageMin = 2;
     this -> damageMax = 4;
     this -> manaMin = 10;
-    this -> manaMax = 100;
+    this -> manaMax = 200;
     this -> level = 1;
     this -> exp = 0;
     this -> expNext =
             static_cast<int>(50/3) * (pow(level, 3)) -
-            6 * (pow(level, 2)) +
-            ((17 * level - 12));
+                    6 * (pow(level, 2)) +
+                    ((17 * level - 12));
     this -> selected = true;
 }
 
-void RangedClass::PrintStats() {
+void MagicClass::PrintStats() {
     std::cout << "===========STATS===========" << std::endl;
-    std::cout << "      = Ranged Class =" << std::endl;
+    std::cout << "      = Magic Class =" << std::endl;
     std::cout << "= Name: " << this -> name << std::endl;
     std::cout << "= Level: " << this -> level << std::endl;
     std::cout << "= Exp to next level: " << this -> expNext << std::endl;
@@ -57,3 +58,7 @@ void RangedClass::PrintStats() {
     std::cout << "= Mana: " << this -> manaMin << " - " << manaMax << std::endl;
     std::cout << std::endl;
 }
+
+
+
+
