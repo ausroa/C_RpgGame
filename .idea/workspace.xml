@@ -12,14 +12,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ee08d97-449d-44f7-acb1-110325cd68f4" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Character.h" beforeDir="false" afterPath="$PROJECT_DIR$/Character.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Game.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MagicClass.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/MagicClass.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MeleeClass.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/MeleeClass.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RangedClass.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/RangedClass.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="1ee08d97-449d-44f7-acb1-110325cd68f4" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/cmake-build-release/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -268,12 +261,12 @@
       <workItem from="1531513667107" duration="807000" />
       <workItem from="1531534643688" duration="805000" />
       <workItem from="1531537609831" duration="74000" />
-      <workItem from="1531538248327" duration="8541000" />
+      <workItem from="1531538248327" duration="8589000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45791000" />
+    <option name="totallyTimeSpent" value="45839000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
