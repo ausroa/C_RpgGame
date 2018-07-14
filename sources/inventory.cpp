@@ -2,7 +2,7 @@
 * Created by Nasser Al-Zughaibi on 7/13/18.
 */
 
-#include "headers/inventory.h"
+#include "../headers/inventory.h"
 
 /**
  * Gets vector of Items

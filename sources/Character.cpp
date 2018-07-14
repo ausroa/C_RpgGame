@@ -6,7 +6,7 @@
 //****************************
 
 #include <iostream>
-#include "headers/Character.h"
+#include "../headers/Character.h"
 
 Character::Character() {
     /*
