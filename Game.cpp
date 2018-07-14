@@ -33,7 +33,6 @@ void Game::GameInit() {
     // Game Initialized based off class selection
     if ( playerClass == "Magic" || playerClass == "magic") {
         magicClass.Initialize(name);
-
     }
     else if (playerClass == "Ranged" || playerClass == "ranged") {
         rangedClass.Initialize(name);

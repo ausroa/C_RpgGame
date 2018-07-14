@@ -17,6 +17,8 @@ public:
     void Initialize(std::string name);
     void PrintStats();
 
+private:
+
 };
 
 
