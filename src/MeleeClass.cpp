@@ -1,11 +1,10 @@
 //
 // Created by ausro on 7/12/2018.
 //
-
-#include "RangedClass.h"
 #include <math.h>
+#include "../headers/MeleeClass.h"
 
-RangedClass::RangedClass() {
+MeleeClass::MeleeClass() {
     this -> name = "";
     this -> healthMin = 0;
     this -> healthMax = 0;
@@ -30,11 +29,11 @@ RangedClass::RangedClass() {
     this -> stamina = 0;
 }
 
-RangedClass::~RangedClass() {
+MeleeClass::~MeleeClass() {
 
 }
 
-void RangedClass::Initialize(std::string name) {
+void MeleeClass::Initialize(std::string name) {
     this -> name = name;
     this -> healthMin = 10;
     this -> healthMax = 100;
@@ -43,7 +42,7 @@ void RangedClass::Initialize(std::string name) {
     this -> damageMin = 2;
     this -> damageMax = 4;
     this -> manaMin = 10;
-    this -> manaMax = 100;
+    this -> manaMax = 200;
 
     this -> level = 1;
     this -> exp = 0;
@@ -62,9 +61,9 @@ void RangedClass::Initialize(std::string name) {
     this -> stamina = 10;
 }
 
-void RangedClass::PrintStats() {
+void MeleeClass::PrintStats() {
     std::cout << "\n===========STATS===========" << std::endl;
-    std::cout << "      = Ranged Class =" << std::endl;
+    std::cout << "      = Melee Class =" << std::endl;
     std::cout << "= Name: " << this -> name << std::endl;
     std::cout << "= Level: " << this -> level << std::endl;
     std::cout << "= Exp to next level: " << this -> expNext << std::endl;
