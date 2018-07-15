@@ -2,7 +2,7 @@
 // Created by ausro on 7/12/2018.
 //
 
-#include "Game.h"
+#include "../headers/Game.h"
 
 Game::Game() {
     playing = true;
@@ -37,6 +37,7 @@ void Game::GameInit() {
             std::cout << "Enter class number to check stats: ";
             std::cin >> checkStats;
 
+<<<<<<< HEAD:Game.cpp
             switch (checkStats) {
                 case 1:
                     meleeClass.PrintStats();
@@ -60,6 +61,19 @@ void Game::GameInit() {
             {
                 ready = false;
             }
+=======
+    // Game Initialized based off class selection
+    if ( playerClass == "Magic" || playerClass == "magic" || playerClass == "3") {
+        magicClass.Initialize(name);
+
+    }
+    else if (playerClass == "Ranged" || playerClass == "ranged" || playerClass == "2") {
+        rangedClass.Initialize(name);
+    }
+    else if (playerClass == "Melee" || playerClass == "melee" || playerClass == "1") {
+        meleeClass.Initialize(name);
+    }
+>>>>>>> 36e3ae073f662b59648a5be3ae6ebbfa9bbae29d:src/Game.cpp
 
         } while(!ready);
 
@@ -125,6 +139,7 @@ bool Game::isPlaying() {
         default:
             break;
     }
+    return playing;
 }
 
 
