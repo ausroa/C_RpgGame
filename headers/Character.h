@@ -9,6 +9,7 @@
 #define C_RPGGAME_CHARACTER_H
 
 #include <string>
+#include <fstream>
 
 class Character {
 public:
@@ -57,6 +58,10 @@ protected:
     int luck;
     int speech;
     int stamina;
+    int vitality;
+
+    int statPoints;
+    int skillPoints;
 
 };
 

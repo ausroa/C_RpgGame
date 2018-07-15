@@ -6,6 +6,7 @@
 
 Game::Game() {
     playing = true;
+
 }
 
 Game::~Game() {
@@ -19,8 +20,6 @@ void Game::GameInit() {
     std::string checkClass;
     std::string playerClassStats;
     bool yes;
-    bool ready;
-    int checkStats;
 
     std::cout << "####################\n";
     std::cout << "# Welcome to TITLE #" << std::endl;

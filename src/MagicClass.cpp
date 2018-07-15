@@ -28,7 +28,10 @@ MagicClass::MagicClass() {
     this -> luck = 0;
     this -> speech = 0;
     this -> stamina = 0;
+    this -> vitality = 0;
 
+    this -> statPoints = 0;
+    this -> skillPoints = 0;
 }
 
 MagicClass::~MagicClass() {
@@ -61,6 +64,10 @@ void MagicClass::Initialize(std::string name) {
     this -> luck = 10;
     this -> speech = 10;
     this -> stamina = 10;
+    this -> vitality = 10;
+
+    this -> statPoints = 0;
+    this -> skillPoints = 0;
 }
 
 void MagicClass::PrintStats() {

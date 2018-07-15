@@ -9,7 +9,6 @@
 #include "../headers/Character.h"
 
 Character::Character() {
-    /*
     name = "";
     healthMin = 0;
     healthMax = 0;
@@ -19,10 +18,19 @@ Character::Character() {
     damageMax = 0;
     manaMin = 0;
     manaMax = 0;
-    level = 1;
-    exp = 0;
-    */
 
+    level = 0;
+    exp = 0;
+    expNext;
+
+    defense = 0;
+    strength = 0;
+    magic = 0;
+    accuracy = 0;
+    luck = 0;
+    speech = 0;
+    stamina = 0;
+    vitality = 0;
 }
 
 Character::~Character() {
