@@ -13,7 +13,9 @@ Game::~Game() {
 
 }
 
-// Intro To Game
+/**
+ * Intro of game
+ */
 void Game::GameInit() {
     std::string name;
     std::string playerClass;
@@ -37,7 +39,9 @@ void Game::GameInit() {
         std::cout << "Class: ";
         std::cin >> playerClass;
 
-        // Game Initialized based off class selection
+        /**
+         * Initiate game based off class selection
+         */
         if ( playerClass == "Magic" || playerClass == "magic" || playerClass == "3") {
             magicClass.Initialize(name);
         }
@@ -51,6 +55,9 @@ void Game::GameInit() {
         std::cout << "Enter class to check stats: ";
         std::cin >> playerClassStats;
 
+        /**
+         * Check status of class based of selection
+         */
         if (playerClassStats == "Melee" || playerClassStats == "melee") {
             meleeClass.PrintStats();
         }
@@ -89,7 +96,10 @@ void Game::MainMenu() {
     std::cout << std::endl;
 }
 
-// Main Menu selection
+/**
+ * Menu selection
+ * @return is game still playing
+ */
 bool Game::isPlaying() {
     switch (playerChoice) {
         case 3:

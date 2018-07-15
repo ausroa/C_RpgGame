@@ -24,7 +24,7 @@ public:
     int GetStaminaMin() {return staminaMin;};
     int GetAccuracy()  {return accuracy;};
     int GetExp() {return exp;};
-    
+
 protected:
     int levelMax;
     int levelMin;
