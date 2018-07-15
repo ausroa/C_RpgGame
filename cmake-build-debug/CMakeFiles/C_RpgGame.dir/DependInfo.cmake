@@ -4,12 +4,15 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/ausro/Documents/GitHub/C_RpgGame/Character.cpp" "C:/Users/ausro/Documents/GitHub/C_RpgGame/cmake-build-debug/CMakeFiles/C_RpgGame.dir/Character.cpp.obj"
-  "C:/Users/ausro/Documents/GitHub/C_RpgGame/Game.cpp" "C:/Users/ausro/Documents/GitHub/C_RpgGame/cmake-build-debug/CMakeFiles/C_RpgGame.dir/Game.cpp.obj"
-  "C:/Users/ausro/Documents/GitHub/C_RpgGame/MagicClass.cpp" "C:/Users/ausro/Documents/GitHub/C_RpgGame/cmake-build-debug/CMakeFiles/C_RpgGame.dir/MagicClass.cpp.obj"
-  "C:/Users/ausro/Documents/GitHub/C_RpgGame/Main.cpp" "C:/Users/ausro/Documents/GitHub/C_RpgGame/cmake-build-debug/CMakeFiles/C_RpgGame.dir/Main.cpp.obj"
-  "C:/Users/ausro/Documents/GitHub/C_RpgGame/MeleeClass.cpp" "C:/Users/ausro/Documents/GitHub/C_RpgGame/cmake-build-debug/CMakeFiles/C_RpgGame.dir/MeleeClass.cpp.obj"
-  "C:/Users/ausro/Documents/GitHub/C_RpgGame/RangedClass.cpp" "C:/Users/ausro/Documents/GitHub/C_RpgGame/cmake-build-debug/CMakeFiles/C_RpgGame.dir/RangedClass.cpp.obj"
+  "C:/Users/ausro/Documents/GitHub/C_RpgGame/src/Character.cpp" "C:/Users/ausro/Documents/GitHub/C_RpgGame/cmake-build-debug/CMakeFiles/C_RpgGame.dir/src/Character.cpp.obj"
+  "C:/Users/ausro/Documents/GitHub/C_RpgGame/src/Enemy.cpp" "C:/Users/ausro/Documents/GitHub/C_RpgGame/cmake-build-debug/CMakeFiles/C_RpgGame.dir/src/Enemy.cpp.obj"
+  "C:/Users/ausro/Documents/GitHub/C_RpgGame/src/Game.cpp" "C:/Users/ausro/Documents/GitHub/C_RpgGame/cmake-build-debug/CMakeFiles/C_RpgGame.dir/src/Game.cpp.obj"
+  "C:/Users/ausro/Documents/GitHub/C_RpgGame/src/Item.cpp" "C:/Users/ausro/Documents/GitHub/C_RpgGame/cmake-build-debug/CMakeFiles/C_RpgGame.dir/src/Item.cpp.obj"
+  "C:/Users/ausro/Documents/GitHub/C_RpgGame/src/MagicClass.cpp" "C:/Users/ausro/Documents/GitHub/C_RpgGame/cmake-build-debug/CMakeFiles/C_RpgGame.dir/src/MagicClass.cpp.obj"
+  "C:/Users/ausro/Documents/GitHub/C_RpgGame/src/Main.cpp" "C:/Users/ausro/Documents/GitHub/C_RpgGame/cmake-build-debug/CMakeFiles/C_RpgGame.dir/src/Main.cpp.obj"
+  "C:/Users/ausro/Documents/GitHub/C_RpgGame/src/MeleeClass.cpp" "C:/Users/ausro/Documents/GitHub/C_RpgGame/cmake-build-debug/CMakeFiles/C_RpgGame.dir/src/MeleeClass.cpp.obj"
+  "C:/Users/ausro/Documents/GitHub/C_RpgGame/src/RangedClass.cpp" "C:/Users/ausro/Documents/GitHub/C_RpgGame/cmake-build-debug/CMakeFiles/C_RpgGame.dir/src/RangedClass.cpp.obj"
+  "C:/Users/ausro/Documents/GitHub/C_RpgGame/src/inventory.cpp" "C:/Users/ausro/Documents/GitHub/C_RpgGame/cmake-build-debug/CMakeFiles/C_RpgGame.dir/src/inventory.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

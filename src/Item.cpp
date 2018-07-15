@@ -28,7 +28,7 @@ int Item::getType() const {
 }
 
 /**
- * Itme type setter
+ * Item type setter
  * @param type
  */
 void Item::setType(int type) {

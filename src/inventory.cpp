@@ -58,3 +58,5 @@ double inventory::calculateTotalWeight(vector<Item> items)const {
 inventory::inventory() {}
 
 inventory::inventory(const vector<Item> &items, double weight) : items(items), totalWeight(weight) {}
+
+

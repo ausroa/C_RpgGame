@@ -6,6 +6,7 @@
 #define C_RPGGAME_INVENTORY_H
 
 #include <vector>
+#include <iostream>
 #include "Item.h"
 
 using namespace std;
@@ -29,6 +30,8 @@ public:
     inventory(const vector<Item> &items, double weight);
 
     double calculateTotalWeight(vector<Item> items)const;
+
+    // Method for Printing out inventory //
 };
 
 

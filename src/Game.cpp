@@ -17,7 +17,7 @@ void Game::GameInit() {
     std::string name;
     std::string playerClass;
     std::string checkClass;
-    std::string playerReady;
+    std::string playerClassStats;
     bool yes;
     bool ready;
     int checkStats;
@@ -27,69 +27,39 @@ void Game::GameInit() {
     std::cout << "####################\n";
     std::cout << "\nWhat is your name? ";
     std::getline(std::cin, name);
+
+    std::cout << "What class would you like to be?" << std::endl;
+    std::cout << " \n======CLASSES======" << std::endl;
+
     do {
-        std::cout << " \n======CLASSES======" << std::endl;
-
-        do {
-            std::cout << "1. Melee" << std::endl;
-            std::cout << "2. Ranged" << std::endl;
-            std::cout << "3. Magic\n" << std::endl;
-            std::cout << "Enter class number to check stats: ";
-            std::cin >> checkStats;
-
-<<<<<<< HEAD:Game.cpp
-            switch (checkStats) {
-                case 1:
-                    meleeClass.PrintStats();
-                    break;
-                case 2:
-                    rangedClass.PrintStats();
-                    break;
-                case 3:
-                    magicClass .PrintStats();
-                    break;
-                default:
-                    break;
-            }
-            std::cout << "Continue to selection? yes/no ";
-            std::cin >> playerReady;
-
-            if (playerReady == "Yes" || playerReady == "yes") {
-                ready = true;
-            }
-            else
-            {
-                ready = false;
-            }
-=======
-    // Game Initialized based off class selection
-    if ( playerClass == "Magic" || playerClass == "magic" || playerClass == "3") {
-        magicClass.Initialize(name);
-
-    }
-    else if (playerClass == "Ranged" || playerClass == "ranged" || playerClass == "2") {
-        rangedClass.Initialize(name);
-    }
-    else if (playerClass == "Melee" || playerClass == "melee" || playerClass == "1") {
-        meleeClass.Initialize(name);
-    }
->>>>>>> 36e3ae073f662b59648a5be3ae6ebbfa9bbae29d:src/Game.cpp
-
-        } while(!ready);
-
-
+        std::cout << "1. Melee" << std::endl;
+        std::cout << "2. Ranged" << std::endl;
+        std::cout << "3. Magic\n" << std::endl;
         std::cout << "Class: ";
         std::cin >> playerClass;
 
         // Game Initialized based off class selection
-        if ( playerClass == "Magic" || playerClass == "magic") {
+        if ( playerClass == "Magic" || playerClass == "magic" || playerClass == "3") {
             magicClass.Initialize(name);
         }
-        else if (playerClass == "Ranged" || playerClass == "ranged") {
-            rangedClass.Initialize(name);
+        else if (playerClass == "Ranged" || playerClass == "ranged" || playerClass == "2") {
+                rangedClass.Initialize(name);
         }
-        else if (playerClass == "Melee" || playerClass == "melee") {
-            meleeClass.Initialize(name);
+        else if (playerClass == "Melee" || playerClass == "melee" || playerClass == "1") {
+                meleeClass.Initialize(name);
+        }
+
+        std::cout << "Enter class to check stats: ";
+        std::cin >> playerClassStats;
+
+        if (playerClassStats == "Melee" || playerClassStats == "melee") {
+            meleeClass.PrintStats();
+        }
+        else if (playerClassStats == "Ranged" || playerClassStats == "ranged") {
+            rangedClass.PrintStats();
+        }
+        else if (playerClassStats == "Magic" || playerClassStats == "magic") {
+            magicClass.PrintStats();
         }
 
         std::cout << "\nAre you sure you want to use " << playerClass << " class? yes/no" << std::endl;
@@ -101,6 +71,7 @@ void Game::GameInit() {
         else {
             yes = false;
         }
+
     } while (!yes);
 }
 
@@ -133,6 +104,9 @@ bool Game::isPlaying() {
                 meleeClass.PrintStats();
             }
             break;
+        case 6:
+            // Inventory
+
         case 7:
             playing = false;
             break;

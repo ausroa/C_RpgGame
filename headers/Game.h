@@ -10,6 +10,7 @@
 #include "MagicClass.h"
 #include "RangedClass.h"
 #include "MeleeClass.h"
+#include "inventory.h"
 
 
 class Game {
