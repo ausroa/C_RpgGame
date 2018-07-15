@@ -31,7 +31,9 @@ public:
 
     double calculateTotalWeight(vector<Item> items)const;
 
-    // Method for Printing out inventory //
+    /**
+     * Method for printing out inventory
+     */
 };
 
 
