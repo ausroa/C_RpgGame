@@ -82,37 +82,55 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/ausro/Documents/GitHub/C_RpgGame/Character.cpp">
+		<Unit filename="C:/Users/ausro/Documents/GitHub/C_RpgGame/headers/Character.h">
 			<Option target="C_RpgGame"/>
 		</Unit>
-		<Unit filename="C:/Users/ausro/Documents/GitHub/C_RpgGame/Character.h">
+		<Unit filename="C:/Users/ausro/Documents/GitHub/C_RpgGame/headers/Game.h">
 			<Option target="C_RpgGame"/>
 		</Unit>
-		<Unit filename="C:/Users/ausro/Documents/GitHub/C_RpgGame/Game.cpp">
+		<Unit filename="C:/Users/ausro/Documents/GitHub/C_RpgGame/headers/Item.h">
 			<Option target="C_RpgGame"/>
 		</Unit>
-		<Unit filename="C:/Users/ausro/Documents/GitHub/C_RpgGame/Game.h">
+		<Unit filename="C:/Users/ausro/Documents/GitHub/C_RpgGame/headers/MagicClass.h">
 			<Option target="C_RpgGame"/>
 		</Unit>
-		<Unit filename="C:/Users/ausro/Documents/GitHub/C_RpgGame/MagicClass.cpp">
+		<Unit filename="C:/Users/ausro/Documents/GitHub/C_RpgGame/headers/MeleeClass.h">
 			<Option target="C_RpgGame"/>
 		</Unit>
-		<Unit filename="C:/Users/ausro/Documents/GitHub/C_RpgGame/MagicClass.h">
+		<Unit filename="C:/Users/ausro/Documents/GitHub/C_RpgGame/headers/RangedClass.h">
 			<Option target="C_RpgGame"/>
 		</Unit>
-		<Unit filename="C:/Users/ausro/Documents/GitHub/C_RpgGame/Main.cpp">
+		<Unit filename="C:/Users/ausro/Documents/GitHub/C_RpgGame/headers/inventory.h">
 			<Option target="C_RpgGame"/>
 		</Unit>
-		<Unit filename="C:/Users/ausro/Documents/GitHub/C_RpgGame/MeleeClass.cpp">
+		<Unit filename="C:/Users/ausro/Documents/GitHub/C_RpgGame/src/Character.cpp">
 			<Option target="C_RpgGame"/>
 		</Unit>
-		<Unit filename="C:/Users/ausro/Documents/GitHub/C_RpgGame/MeleeClass.h">
+		<Unit filename="C:/Users/ausro/Documents/GitHub/C_RpgGame/src/Enemy.cpp">
 			<Option target="C_RpgGame"/>
 		</Unit>
-		<Unit filename="C:/Users/ausro/Documents/GitHub/C_RpgGame/RangedClass.cpp">
+		<Unit filename="C:/Users/ausro/Documents/GitHub/C_RpgGame/src/Enemy.h">
 			<Option target="C_RpgGame"/>
 		</Unit>
-		<Unit filename="C:/Users/ausro/Documents/GitHub/C_RpgGame/RangedClass.h">
+		<Unit filename="C:/Users/ausro/Documents/GitHub/C_RpgGame/src/Game.cpp">
+			<Option target="C_RpgGame"/>
+		</Unit>
+		<Unit filename="C:/Users/ausro/Documents/GitHub/C_RpgGame/src/Item.cpp">
+			<Option target="C_RpgGame"/>
+		</Unit>
+		<Unit filename="C:/Users/ausro/Documents/GitHub/C_RpgGame/src/MagicClass.cpp">
+			<Option target="C_RpgGame"/>
+		</Unit>
+		<Unit filename="C:/Users/ausro/Documents/GitHub/C_RpgGame/src/Main.cpp">
+			<Option target="C_RpgGame"/>
+		</Unit>
+		<Unit filename="C:/Users/ausro/Documents/GitHub/C_RpgGame/src/MeleeClass.cpp">
+			<Option target="C_RpgGame"/>
+		</Unit>
+		<Unit filename="C:/Users/ausro/Documents/GitHub/C_RpgGame/src/RangedClass.cpp">
+			<Option target="C_RpgGame"/>
+		</Unit>
+		<Unit filename="C:/Users/ausro/Documents/GitHub/C_RpgGame/src/inventory.cpp">
 			<Option target="C_RpgGame"/>
 		</Unit>
 		<Unit filename="C:/Users/ausro/Documents/GitHub/C_RpgGame/CMakeLists.txt">
