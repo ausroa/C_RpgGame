@@ -1,3 +1,0 @@
-C:/Users/ausro/Documents/GitHub/C_RpgGame/cmake-build-debug/CMakeFiles/C_RpgGame.dir
-C:/Users/ausro/Documents/GitHub/C_RpgGame/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/ausro/Documents/GitHub/C_RpgGame/cmake-build-debug/CMakeFiles/rebuild_cache.dir
