@@ -34,6 +34,8 @@ public:
     /**
      * Method for printing out inventory
      */
+
+    string printInventoryContents();
 };
 
 

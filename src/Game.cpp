@@ -52,6 +52,26 @@ void Game::GameInit() {
                 meleeClass.Initialize(name);
         }
 
+        /**
+         * Get weapon type based on class:
+         */
+
+        cout << "Choose weapon type" << "\n";
+
+        if (rangedClass.GetLevel() >= 0){
+            cout << rangedClass.displayWeaponTypes() << "\n";
+            string chosenWeaponType;
+            cin >> chosenWeaponType;
+            rangedClass.setWeaponType(stoi(chosenWeaponType));
+
+            cout<< "test: " << to_string(rangedClass.getWeaponTypeEnum()) << endl;
+        }else if (meleeClass.GetLevel() >= 0){
+
+        }else if(magicClass.GetLevel() >= 0){
+
+        }
+
+
         std::cout << "Enter class to check stats: ";
         std::cin >> playerClassStats;
 

@@ -4,6 +4,9 @@
 
 #include "../headers/RangedClass.h"
 #include <math.h>
+#include <string>
+
+using namespace std;
 
 RangedClass::RangedClass() {
     this -> name = "";
@@ -92,3 +95,59 @@ void RangedClass::PrintStats() {
     std::cout << std::endl;
     std::cout << std::endl;
 }
+
+
+/**
+ * Displays all weapon types available for this class.
+ * @return output - String output of the list
+ */
+string RangedClass::displayWeaponTypes() {
+    string output = "";
+    int i = 1;
+
+    double sizeOfArray = sizeof(this->weapons)/sizeof(this->weapons[0]);
+    for (int j = 0; j < sizeOfArray ; ++j) {
+        output += "" + to_string(i++) + " - " + weapons[j] + "\n";
+    }
+
+    return output;
+}
+
+/**
+ * @return weaponTypeName
+ */
+string RangedClass::getWeaponType() const {
+    string weaponTypeName = weapons[this->weaponType];
+    return weaponTypeName;
+}
+
+/**
+ * @param weaponType
+ */
+void RangedClass::setWeaponType(int weaponType) {
+    setWeaponTypeEnum(weaponType);
+    RangedClass::weaponType = weaponType;
+}
+
+RangedClass::WeaponTypes RangedClass::getWeaponTypeEnum() const {
+    return weaponTypeEnum;
+}
+
+void RangedClass::setWeaponTypeEnum(int weaponType) {
+    switch (weaponType){
+        case 1:
+            weaponTypeEnum = BOWANDARROW;
+            break;
+        case 2:
+            weaponTypeEnum = DAGGERS;
+            break;
+        case 3:
+            weaponTypeEnum = CROSSBOW;
+            break;
+        default:
+            weaponTypeEnum = BOWANDARROW;
+            break;
+    }
+}
+
+

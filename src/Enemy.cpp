@@ -2,7 +2,7 @@
 // Created by ausro on 7/14/2018.
 //
 
-#include "Enemy.h"
+#include "../headers/Enemy.h"
 
 Enemy::Enemy() {
 

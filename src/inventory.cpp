@@ -59,4 +59,25 @@ inventory::inventory() {}
 
 inventory::inventory(const vector<Item> &items, double weight) : items(items), totalWeight(weight) {}
 
+/**
+ * Prints entire inventory contents
+ * @return output - List of contents.
+ */
+string inventory::printInventoryContents() {
+
+    string output = "";
+    int itemCount = 0;
+    vector<Item>::iterator it;
+
+    for (it = items.begin(); it < items.end() ; ++it) {
+
+        output += "Item " +  to_string(itemCount) +  " : " +
+                it->getItemName() + " - " + to_string(it->getWeight()) + " lb";
+
+        itemCount++;
+    }
+
+    return output;
+}
+
 
