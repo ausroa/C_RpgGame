@@ -56,7 +56,7 @@ void Game::GameInit() {
          * Get weapon type based on class:
          */
 
-        cout << "Choose weapon type" << "\n";
+        std::cout << "Choose weapon type" << "\n";
 
         if (rangedClass.GetLevel() >= 0){
             cout << rangedClass.displayWeaponTypes() << "\n";
@@ -134,8 +134,8 @@ bool Game::isPlaying() {
             }
             break;
         case 6:
-            // Inventory
-
+            inventoryContents.printInventoryContents();
+            break;
         case 7:
             playing = false;
             break;

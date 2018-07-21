@@ -39,6 +39,7 @@ private:
     MagicClass magicClass;
     RangedClass rangedClass;
     MeleeClass meleeClass;
+    inventory inventoryContents;
 };
 
 

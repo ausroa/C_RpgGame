@@ -14,7 +14,7 @@ using namespace std;
 class RangedClass: public Character {
 private:
     string weapons[3] = {"Bow and Arrow", "Daggers", "Crossbow"};
-    const enum WeaponTypes{
+    enum WeaponTypes{
         BOWANDARROW = 0,
         DAGGERS = 1,
         CROSSBOW = 2

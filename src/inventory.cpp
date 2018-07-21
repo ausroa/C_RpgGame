@@ -70,11 +70,14 @@ string inventory::printInventoryContents() {
     vector<Item>::iterator it;
 
     for (it = items.begin(); it < items.end() ; ++it) {
-
         output += "Item " +  to_string(itemCount) +  " : " +
                 it->getItemName() + " - " + to_string(it->getWeight()) + " lb";
 
         itemCount++;
+
+    }
+    if (output == "") {
+        std::cout << "Inventory is empty!" << std::endl;
     }
 
     return output;
