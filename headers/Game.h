@@ -24,16 +24,21 @@ public:
     void GameInit();
     void MainMenu();
     bool isPlaying();
+    void gameIntro();
 
     // Accessors
     int GetPlayerChoice() { return playerChoice; };
     bool GetPlaying() { return playing; };
+    std::string getName() { return name ;};
+    std::string getPlayerClass() { return playerClass; };
 
     // Modifiers
 
 private:
     int playerChoice;
     bool playing;
+    std::string playerClass;
+    std::string name;
 
     // Character related
     MagicClass magicClass;

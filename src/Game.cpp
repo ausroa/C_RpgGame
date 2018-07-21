@@ -17,8 +17,6 @@ Game::~Game() {
  * Intro of game
  */
 void Game::GameInit() {
-    std::string name;
-    std::string playerClass;
     std::string checkClass;
     std::string playerClassStats;
     bool yes;
@@ -67,11 +65,9 @@ void Game::GameInit() {
             cout<< "test: " << to_string(rangedClass.getWeaponTypeEnum()) << endl;
         }else if (meleeClass.GetLevel() >= 0){
 
-        }else if(magicClass.GetLevel() >= 0){
+        }else if(magicClass.GetLevel() >= 0) {
 
         }
-
-
         std::cout << "Enter class to check stats: ";
         std::cin >> playerClassStats;
 
@@ -143,6 +139,11 @@ bool Game::isPlaying() {
             break;
     }
     return playing;
+}
+
+void Game::gameIntro() {
+    std::cout << "Welcome to your own adventure! Your name is " << name;
+    std::cout << ". The class your chose is " << playerClass << "." << std::endl;
 }
 
 
