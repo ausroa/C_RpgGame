@@ -7,6 +7,7 @@
 
 #include <iostream>
 #include "../headers/Character.h"
+#include <math.h>
 
 Character::Character() {
     name = "";
@@ -21,7 +22,8 @@ Character::Character() {
 
     level = 0;
     exp = 0;
-    expNext;
+    expNext = 0;
+    selected = false;
 
     defense = 0;
     strength = 0;
@@ -39,7 +41,12 @@ Character::~Character() {
 
 void Character::levelUp() {
     if (exp >= expNext) {
+        exp -= expNext;
         level++;
+        this -> expNext =
+                static_cast<int>(50/3) * (pow(level, 3)) -
+                6 * (pow(level, 2)) +
+                ((17 * level - 12));
     }
 }
 /*

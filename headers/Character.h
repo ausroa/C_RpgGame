@@ -12,29 +12,6 @@
 #include <fstream>
 
 class Character {
-public:
-    Character();
-    ~Character();
-
-    // Functions
-    // void Initialize(std::string name, std::string playerClass);
-    void levelUp();
-    // Accessors
-    int GetHealthMin() { return healthMin; };
-    int GetHealthMax() { return healthMax; };
-    int GetStaminaMin() { return staminaMin; };
-    int GetStaminaMax() { return staminaMax; };
-    int GetDamageMin() { return damageMin; };
-    int GetDamageMax() { return damageMax; };
-    int GetManaMin() { return manaMin; };
-    int GetManaMax() { return manaMax; };
-    int GetLevel() { return level; };
-    int GetExp() { return level; };
-    bool IsSelected() { return selected; };
-
-    // Modifiers
-
-
 protected:
     std::string name;
     bool selected;
@@ -62,6 +39,34 @@ protected:
 
     int statPoints;
     int skillPoints;
+
+public:
+    Character();
+    ~Character();
+
+    // Functions
+    void levelUp();
+
+
+    // Accessors
+    int GetHealthMin() { return healthMin; };
+    int GetHealthMax() { return healthMax; };
+    int GetStaminaMin() { return staminaMin; };
+    int GetStaminaMax() { return staminaMax; };
+    int GetDamageMin() { return damageMin; };
+    int GetDamageMax() { return damageMax; };
+    int GetManaMin() { return manaMin; };
+    int GetManaMax() { return manaMax; };
+    int GetLevel() { return level; };
+    int GetExp() { return level; };
+    bool IsSelected() { return selected; };
+    int getVitality() { return vitality; };
+    int getSkillPoints() { return skillPoints; };
+    int getStatPoints() { return statPoints; };
+
+    // Modifiers
+
+
 
 };
 

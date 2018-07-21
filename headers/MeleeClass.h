@@ -9,6 +9,9 @@
 #include "Character.h"
 
 class MeleeClass: public Character {
+private:
+
+
 public:
     MeleeClass();
     ~MeleeClass();
@@ -16,7 +19,6 @@ public:
     void Initialize(std::string name);
     void PrintStats();
 
-private:
 };
 
 

@@ -11,6 +11,8 @@
 
 
 class MagicClass: public Character {
+private:
+
 
 public:
     MagicClass();
@@ -24,7 +26,6 @@ public:
     // Modifiers
 
 
-private:
 
     // Character Related
 };
