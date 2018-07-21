@@ -14,6 +14,18 @@
 
 
 class Game {
+private:
+    int playerChoice;
+    bool playing;
+    std::string playerClass;
+    std::string name;
+
+    // Character related
+    MagicClass magicClass;
+    RangedClass rangedClass;
+    MeleeClass meleeClass;
+    inventory inventoryContents;
+
 public:
     Game();
     ~Game();
@@ -34,17 +46,6 @@ public:
 
     // Modifiers
 
-private:
-    int playerChoice;
-    bool playing;
-    std::string playerClass;
-    std::string name;
-
-    // Character related
-    MagicClass magicClass;
-    RangedClass rangedClass;
-    MeleeClass meleeClass;
-    inventory inventoryContents;
 };
 
 
