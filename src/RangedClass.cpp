@@ -149,5 +149,3 @@ void RangedClass::setWeaponTypeEnum(int weaponType) {
             break;
     }
 }
-
-

@@ -145,7 +145,3 @@ void Game::gameIntro() {
     std::cout << "Welcome to your own adventure! Your name is " << name;
     std::cout << ". The class your chose is " << playerClass << "." << std::endl;
 }
-
-
-
-
