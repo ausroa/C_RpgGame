@@ -6,7 +6,6 @@
 
 Game::Game() {
     playing = true;
-
 }
 
 Game::~Game() {
@@ -87,12 +86,7 @@ void Game::GameInit() {
         std::cout << "\nAre you sure you want to use " << playerClass << " class? yes/no" << std::endl;
         std::cin >> checkClass;
 
-        if (checkClass == "Yes" || checkClass == "yes") {
-            yes = true;
-        }
-        else {
-            yes = false;
-        }
+        yes = checkClass == "Yes" || checkClass == "yes";
 
     } while (!yes);
 }
@@ -129,6 +123,9 @@ bool Game::isPlaying() {
                 meleeClass.PrintStats();
             }
             break;
+        case 5:
+            travel();
+            break;
         case 6:
             inventoryContents.printInventoryContents();
             break;
@@ -143,5 +140,50 @@ bool Game::isPlaying() {
 
 void Game::gameIntro() {
     std::cout << "Welcome to your own adventure! Your name is " << name;
-    std::cout << ". The class your chose is " << playerClass << "." << std::endl;
+
+    // If user input for playerclass is a integer convert it to the proper class
+    if (playerClass == "1") {
+        playerClass = "Melee";
+    }
+    else if (playerClass == "2") {
+        playerClass = "Ranged";
+    }
+    else if (playerClass == "3") {
+        playerClass = "Magic";
+    }
+
+    std::cout << ". The class your chose is " << playerClass << ".\n" << std::endl;
+}
+
+void Game::travel() {
+    // Print locations of travel to user
+    std::cout << "========== Travel ==========" << std::endl;
+    std::cout << "|| 1. Home                ||" << std::endl;
+    std::cout << "|| 2. World 1             ||" << std::endl;
+    std::cout << "|| 3. World 2             ||" << std::endl;
+    std::cout << "|| 4. World 3             ||" << std::endl;
+    std::cout << "============================\n" << std::endl;
+}
+
+void Game::gameStart() {
+    // Prompt travel locations
+    travel();
+
+    // Ask user to where they would like to travel too
+    std::cout << "Where would you like to travel too? ";
+    std::cin >> playerTravel;
+
+    // Check players input for the location to travel too
+    if (playerTravel == 1) {
+        // TODO Home
+    }
+    else if (playerTravel == 2) {
+        // TODO World 1
+    }
+    else if (playerTravel == 3) {
+        // TODO World 2
+    }
+    else if (playerTravel == 4) {
+        // TODO World 3
+    }
 }

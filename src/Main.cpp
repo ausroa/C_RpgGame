@@ -8,10 +8,12 @@ int main() {
 
     FGame.GameInit();
 
+    // Prompt menu options to user and keep looping until user selects quit
     while (FGame.GetPlaying()) {
         FGame.MainMenu();
         FGame.isPlaying();
     }
-
+    FGame.gameIntro();
+    FGame.gameStart();
     return 0;
 }

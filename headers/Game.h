@@ -16,6 +16,7 @@
 class Game {
 private:
     int playerChoice;
+    int playerTravel;
     bool playing;
     std::string playerClass;
     std::string name;
@@ -37,6 +38,8 @@ public:
     void MainMenu();
     bool isPlaying();
     void gameIntro();
+    void gameStart();
+    void travel();
 
     // Accessors
     int GetPlayerChoice() { return playerChoice; };
